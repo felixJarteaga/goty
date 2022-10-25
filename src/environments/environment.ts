@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: 'http://localhost:5000/firestore-grafica-eb140/us-central1',
+  firebase: {
+    apiKey: 'AIzaSyCXliDWjJrXAGhNsRxXAl5n1vz5JSx-Sig',
+    authDomain: 'firestore-grafica-eb140.firebaseapp.com',
+    projectId: 'firestore-grafica-eb140',
+    storageBucket: 'firestore-grafica-eb140.appspot.com',
+    messagingSenderId: '139805964939',
+    appId: '1:139805964939:web:d56a32499f72277592b28e',
+  },
 };
 
 /*
